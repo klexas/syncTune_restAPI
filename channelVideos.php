@@ -5,7 +5,7 @@
 //This is only for initial proof of concept of restfull API for synctune
 
 $channelInfo = $_GET['id'];
-//Do use GET var inside SQL Query. 
+//Do NOT use GET var inside SQL Query lol. 
 
 $query = "SELECT * FROM  `videos` LIMIT 0 , 300";
 $connection = mysqli_connect('localhost', 'root', '', 'synctune_channel');
