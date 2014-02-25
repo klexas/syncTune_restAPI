@@ -3,6 +3,7 @@
 //query for the channels details aka videos. 
 //TODO: Add the Moderators and owners in and refactor this method. 
 //This is only for initial proof of concept of restfull API for synctune
+//Needs moar!
 
 // Allow all domains and origin
 header('Access-Control-Allow-Origin: *');
